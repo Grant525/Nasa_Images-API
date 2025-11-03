@@ -23,6 +23,5 @@ for i in range(len(photos_data["collection"]["items"])):
     })
 
 df = pd.DataFrame(photos)
-#with open(",")
+df.to_csv("nasa_images.csv")
 print(df)
-
